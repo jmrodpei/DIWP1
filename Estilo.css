@@ -12,8 +12,13 @@ h1 {
     text-align: center;
     color: black;
 }
+.my-row{
+    justify-content: center;
+    padding: 75px 0px 0px 75px;
+    align-items: center;
+}
+  /* Secciones */
 
-/* Secciones */
 .seccion {
     width: 100%;
     height: 100vh;
@@ -23,7 +28,7 @@ h1 {
     align-items: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
     font-family: 'Dancing Script', cursive;
-    background-image: url('imagenes/Inicio.jpg');
+    background-image: url('Inicio.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -42,11 +47,7 @@ h1 {
     
          
 }
-.my-row{
-    justify-content: center;
-    padding: 75px 0px 0px 75px;
-    align-items: center;
-}
+
 #seccion4 {
     width: 100%;
     height: 100vh;
@@ -85,26 +86,4 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Permanent Marker', cursive;
-}
-
-
-
-
-
-
-
-
-
-seccion:nth-of-type(1) {
-   
-    background-image: url('imagenes/Incio.jpg');
-    
-}
-
-seccion:nth-of-type(2) {
-    background-color: #5EE0C2;
-}
-
-seccion:nth-of-type(3) {
-    background-color: #F04A63;
 }
